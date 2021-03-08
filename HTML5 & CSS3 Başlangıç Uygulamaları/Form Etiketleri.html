@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Etiketlleri</title>
+</head>
+<body>
+<form>
+    <input type="text">
+    <button>Gönder</button>
+</form>
+<form>
+    <label for="kullanıcı"> Kullanıcı Adı</label>
+    <input type="text" id="kullanıcı">
+    <button>Gönder</button>
+</form>
+<form id="örnekler" method="post">
+    <label for="kullanıcı2"> Kullanıcı Adı</label> <br>
+    <input type="text " id="kullanıcı2" maxlength="15">
+    <br> <br>
+    <label for="sifre" > Şifre </label> <br>
+    <input type="password" id="sifre">
+
+    <br> <br>
+    <label for="yas" >Yaş </label> <br>
+    <input type="number" id="yas" min="0" max="50">
+
+    <br> <br>
+    <input type="submit" value="Kaydet">
+    <input type="reset" value="Formu Sıfırla">
+</form>
+
+<form id="örnekler" method="post">
+    <label for="mail">Mail Adresiniz</label> <br>
+    <input type="email" id="mail" placeholder="Mail Adresiniz" required>
+    <br> <br>
+    <label>Cinsiyet</label> <br>
+    <label for="bayan"> Bayan</label>
+    <input name="cinsiyet" type="radio" id="bayan">
+
+    <label for="bay"> Bay</label>
+    <input name="cinsiyet" type="radio" id="bay">
+
+    <br> <br>
+
+    <label  for="ulke"> Bulunduğunuz Ülke</label> <br>
+    <input type="text" id="ulke" value="Türkiye" disabled>
+    <br> <br>
+    <label>Renkler</label> <br>
+    <label for="renk1">Sarı</label>
+    <input name="renk" type="checkbox" id="renk1">
+    <label for="renk2">Yeşil</label>
+    <input name="renk" type="checkbox" id="renk2">
+    <label for="renk3">Mavi</label>
+    <input name="renk" type="checkbox" id="renk3">
+    <br> <br>
+    <input type="submit" value="Kaydet">
+    <input type="reset" value="Formu Sıfırla">
+
+<br> <br><br><br>
+    <input type="file" name="dosya">
+    <input type="file" name="dosya" multiple>
+    <input name="Kullanıcı_no" type="hidden" value="34">
+    <!-görünmeye dosya numarası koyabiliyoruz-->
+
+</form>
+<form action="post">
+        <textarea name="makale" rows="5" cols="100" readonly>
+        PMC Legacy Vol.1  Çıktı !  Şimdi Dinle : https://open.spotify.com/album/5AmcYG...​
+
+Söz & Müzik : Patron
+(Produced by Blasian Beats)
+Mix & Mastering : Kupa-A
+Yönetmen : İsmail Şabotiç
+Drone : Onur Bektaş
+Color : Ercan Küçük
+Asistan : Samet Balkan
+Cast :
+Duygu Sakallı
+Ruhsan Keser
+Rahim Yıldırım
+
+Şarkı sözleri altyazı olarak eklenmiştir.
+
+2019 Professional Music Channel
+
+        </textarea> <br> <br>
+    <textarea name="yenimakale" rows="5" cols="100" minlength="25" maxlength="300" placeholder="Yukarıda ki Örneğin aynısını yazınız" required>
+        </textarea> <br> <br>
+    <input type="submit" value="Kaydet">
+    <input type="reset" value="Formu Sıfırla">
+
+</form>
+<form action="post">
+    <label for="kategori1">Giyim Kategori 1</label> <br>
+    <select name="secmeli" id="kategori1">
+        <option value="1" > Kazak</option>
+        <option value="2" > Mont</option>
+        <option value="3" > Pardesü</option>
+        <option value="4" > Yağmurluk</option>
+        <option value="5" > Ceket</option>
+        <option value="6" > Gömlek</option>
+        <option value="7" > Tişört</option>
+        <option value="8" > Pantolon</option>
+        <option value="9" > Şort</option>
+        <option value="10" > Takım Elbise</option>
+        <option value="11" > Kot Ceket</option>
+        <option value="12" > Çorap</option>
+    </select> <br> <br>
+    <label for="kategori2">Giyim Kategori 2</label> <br>
+    <select name="secmeli2" id="kategori2">
+        <optgroup label="Üst Dış Giyim ">
+            <option value="1">Mont</option>
+            <option value="2">Pardesü</option>
+            <option value="3">Yağmurluk</option>
+            <option value="4">Ceket</option>
+            <option value="5">Kot Ceket</option>
+        </optgroup>
+        <optgroup label="Üst İç Giyim ">
+            <option value="6">Kazak</option>
+            <option value="7">Gömlek</option>
+            <option value="8">Tişört</option>
+            <option value="9">Body</option>
+            <option value="10">Takım Elbise</option>
+        </optgroup>
+        <optgroup label="Alt Giyim ">
+            <option value="11">Pantolon</option>
+            <option value="12">Şort</option>
+            <option value="13">Çorap</option>
+        </optgroup>
+    </select>
+
+</form>
+<button type="submit">Submit</button>
+<button type="button">Button</button>
+<button type="reset">Reset</button>
+
+<form action="deneme.php" method="post">
+    <fieldset>
+        <legend> Kişisel Bilgiler</legend>
+        <label for="kullanici"> Kullanıcı Adı</label> <br>
+        <input type="text" id="kullanici" maxlength="15">
+        <br> <br>
+
+        <label for="sifre2">Şifre</label> <br>
+        <input type="password" id="sifre2">
+        <br> <br>
+        <label for="yas1">Yaş</label> <br>
+        <input type="number" id="yas1" min="0" max="50">
+        </fieldset> <br>
+    <fieldset>
+        <legend>İleteşim Bilgileri</legend>
+        <label for="telefon"> Telefon</label> <br>
+        <input type="text" id="telefon">
+        <br> <br>
+        <label for="adres">Adres</label><br>
+        <textarea id="adres" cols="30" rows="5"></textarea>
+    </fieldset>
+</form>
+
+<form action="" method="post">
+    <label> Çalıştığınız Günleri Yazınız.</label> <br>
+    <input type="text" name="arama" list="gunler">
+    <datalist id="gunler">
+        <option value="Pazartesi"></option>
+        <option value="Salı"></option>
+        <option value="Çarşamba"></option>
+        <option value="Perşembe"></option>
+        <option value="Cuma"></option>
+        <option value="Cumartesi"></option>
+        <option value="Pazar"></option>
+    </datalist>
+    <button type="submit">Gönder</button>
+    </form>
+
+Su doluluk oranı <meter value="0.6"></meter> <br>
+Yağ doluluk oranı <meter low="3" high="7" max="10" value="9"></meter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

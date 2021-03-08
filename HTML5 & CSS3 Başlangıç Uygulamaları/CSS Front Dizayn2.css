@@ -1,0 +1,112 @@
+body{
+    padding-top: 100px ;
+    margin: 0;
+    height: 100px;
+}
+.menu{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #cccccc;
+    padding: 10px 0px ;
+}
+
+.block{
+    display: block;
+
+}
+.inline{
+    display: inline;
+    background-color: #0d6efd;
+    }
+.none{
+    display: none;
+}
+.kutu{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.kutu1{
+    background-color: brown;
+    z-index: 1;
+}
+.kutu2{
+    background-color: salmon;
+    z-index: 2;
+}
+
+.kututasma{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 100px;
+    background-color: salmon;
+    
+}
+
+.over
+{
+    overflow: auto;
+}
+.kutular{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #0d6efd;
+    margin: 10px;
+}
+.temizle{
+    clear: both;
+}
+
+.durankutu{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

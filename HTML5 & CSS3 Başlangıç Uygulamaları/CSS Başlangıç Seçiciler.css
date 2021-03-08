@@ -1,0 +1,21 @@
+div{
+    color: lightpink;
+    font-size: 18px;
+    background-color: aqua;
+
+}
+.kutu{
+    -webkit-box-shadow: 1px 2px 3px aqua;
+    -moz-box-shadow: 1px 2px 3px aqua;
+    -o-box-shadow: 1px 2px 3px aqua;
+    box-shadow: 1px 2px 3px aqua;
+}
+p1{
+    background-color : aqua;
+    color: blue;
+    padding: 5px;
+}
+*{
+    margin: 15px;
+    border-bottom: 1px solid lightpink;
+}

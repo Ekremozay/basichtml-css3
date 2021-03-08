@@ -1,0 +1,115 @@
+#div\ 1{
+    background-color: blue;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+#hata{
+    font-weight: bold;
+    color: coral;
+}
+.kutu{
+    -webkit-box-shadow: 1px 2px 3px aqua;
+    -moz-box-shadow: 1px 2px 3px brown;
+    -o-box-shadow: 1px 2px 3px red;
+    box-shadow: 1px 2px 3px rebeccapurple;
+    color: white;
+    width: 200px;
+    height: 150px;
+
+}
+.bosluk{
+    padding: 15px;
+}
+.paragraf{
+    background-color: aquamarine;
+}
+
+.govde > .icerik {
+    color: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: brown;
+}
+
+.govde1 .icerik1 {
+    color: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: aqua;
+}
+p + small
+{
+    color: blueviolet;
+}
+
+p1 ~ small1
+{
+    color: blueviolet;
+}
+a[target="_blank"] {
+    color: red;
+}
+a[href^="https"]{
+    color: limegreen;
+}
+
+#ayeni:link{
+    color: blueviolet;
+}
+#ayeni:hover{
+    color: green;
+}
+#ayeni:visited{
+    color: red;
+}
+
+li:first-child{
+    padding: 5px;
+    background-color: aqua;
+    }
+li:last-child{
+    padding: 5px;
+    background-color: coral;
+}
+b:only-child{
+    color: gold;
+}
+input{
+    padding: 5px;
+    border: none;
+    color: white;
+}
+input:disabled{
+    background-color: lightgray;
+}
+input:required{
+    background-color: rosybrown;
+}
+
+#pyeni::first-letter{
+    font-size: 25px;
+    font-weight: bold;
+}
+#pyeni::first-line{
+    background-color: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

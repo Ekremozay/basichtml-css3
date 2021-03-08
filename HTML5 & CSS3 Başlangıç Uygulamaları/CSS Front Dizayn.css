@@ -1,0 +1,113 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(187,26,118,0.5466561624649859) 100%);
+
+
+}
+
+.bg-color{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+.kutu1{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    border: solid 10px  #efea3f ;
+    background-color: #c3fdcc;
+}
+.kutup1{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
+.kutup2{
+    width: 200px;
+    min-width: 200px;
+    min-height: 250px;
+    background-color: green;
+}
+.kutup3{
+    max-width: 150px;
+    max-height: 150px;
+    background-color: blue;
+}
+.p1{
+    background-color: #d8ffde;
+}
+.p2{
+    background-color: #d8ffde;
+    padding: 20px;
+}
+div.kenarlık{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed #999999;
+}
+div.kenarlık2{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed #999999;
+    border-radius: 15px;
+}
+div.kutuboyalı{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: blue;
+}
+
+div.kutuboyalı1{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+div.kutuboyalı2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    background-color: #e7ff81;
+}
+div.kutuboyalı3{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #00ff3a;
+    }
+div.kutuboyalı4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

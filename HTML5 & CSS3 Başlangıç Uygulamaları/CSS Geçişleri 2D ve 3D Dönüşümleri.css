@@ -1,0 +1,261 @@
+.buton{
+    width: 180px;
+    height: 45px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #00cc00;
+    color: #00cc00;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color .6s;
+}
+.buton:hover{
+    background-color: #00cc00;
+    color: #ffffff;
+}
+.buton2{
+    width: 180px;
+    height: 45px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid #00cc00;
+    color: #00cc00;
+    font-size: 15px;
+    font-weight: bold;
+    transition-property: border-color , background-color;
+    transition-duration: 2s;
+    }
+.buton2:hover{
+    border-color: #000000;
+    background-color: #00cc00;
+    color: #ffffff;
+}
+
+.kutu{
+    width: 50px;
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: #0d6efd;
+    transition-duration: 1s;
+    transition-property: width;
+}
+.kutu:hover{
+    width: 200px;
+}
+.kutu1{
+    transition-timing-function: ease;
+}
+.kutu2{
+    transition-timing-function: ease-in;
+}
+.kutu3{
+    transition-timing-function: ease-out;
+}
+.kutu4{
+    transition-timing-function: ease-in-out;
+}
+.kutu5{
+    transition-timing-function: linear;
+}
+
+.büyükkutu{
+    width: 100px;
+    height: 100px;
+    background-color: #fd5f8b;
+
+    transition-duration: 1s;
+    transition-delay: .5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.büyükkutu:hover{
+    width: 300px;
+    height: 300px;
+    background-color: #00fde5;
+}
+.yerideğişenkutu{
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    border: 1px dashed black;
+    transform: translate(200px,50px);
+}
+.kutu-x{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    border: 1px dashed black;
+
+    transform: translateX(150px);
+}
+.kutu-y{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    border: 1px dashed black;
+
+    transform: translateY(150px);
+}
+
+.dönenkutu{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    background-color: #00cc16;
+    }
+.rotate1{
+    transform: rotate(30deg);
+}
+.rotate2{
+    transform: rotate(90deg);
+}
+.rotate3{
+    transform: rotate(270deg);
+}
+.rotate4{
+    transform: rotate(-50deg);
+}
+.kutular2{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    background-color: #00cc16;
+
+    transform: rotate(30deg);
+}
+.origin1{
+    transform-origin: right top;
+}
+.origin2{
+    transform-origin: left bottom;
+}
+.kutus{
+    width: 150px;
+    height: 150px;
+    background-color: #b1a3cc;
+
+    transform: scale(2);
+    transform-origin: left top;
+}
+.kutus2{
+    width: 150px;
+    height: 150px;
+    background-color: #00bbcc;
+
+    transform: scale(0.8 , 2);
+    transform-origin: left top;
+}
+.kutuxy{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+
+    transform-origin: left top;
+}
+.scale-x{
+    background-color: #ffc400;
+    transform: scaleX(1.5);
+}
+.scale-y{
+    background-color: #00faff;
+    transform: scaleY(2.5);
+}
+.egikkutu{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: salmon;
+
+    transform: skew(10deg, 20deg);
+}
+.kutuskew{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: salmon;
+}
+.skew-x{
+    transform: skewX(150deg);
+}
+.skew-y{
+    transform: skewY(45deg);
+}
+
+.kutu3d{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    }
+.kutuu1{
+    background-color: #ffc400;
+    transform: translate3d(15px,30px,150px);
+}
+.kutuu2{
+    background-color: #efea3f;
+    transform: perspective(500px) translate3d(15px,30px,150px);
+}
+.kutuu3d{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    background-color: red;
+
+    transform: rotate3d(1,2,3, 45deg);
+}
+
+.kutuscale{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    background-color: red;
+    perspective: 300px;
+}
+.scale{
+    width: 150px;
+    height: 150px;
+    background-color: rebeccapurple;
+    transform: scale3d(1.5,1.5,2) rotateY(60deg);
+}
+.preserve-3d{
+    transform-style: preserve-3d;
+}
+
+.kututers{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    background-color: #65ff00;
+    transform: rotateY(180deg);
+}
+.hidden{
+    backface-visibility: hidden;
+}
+.visible{
+    backface-visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

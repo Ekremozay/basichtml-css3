@@ -1,0 +1,248 @@
+.kutu{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #dbe3ff;
+
+    animation-name: kaydırma;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes kaydırma {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1000px;
+    }
+}
+
+.kutu2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #dbe3ff;
+
+    animation-name: kaydirma;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.sonsuz{
+    animation-iteration-count: infinite;
+}
+.count{
+    animation-iteration-count: 5;
+}
+@keyframes kaydirma {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1000px;
+    }
+}
+
+.kutu3{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #dbe3ff;
+
+    animation-name: kaydirma3;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+@keyframes kaydirma3 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1000px;
+        transform: rotate(360deg);
+    }
+}
+.kutu4{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f9ffc9;
+    margin: 10px;
+
+    animation-name: kaydırma4;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease;
+}
+
+.ters{
+    animation-direction: reverse;
+}
+.alternatif{
+    animation-direction: alternate;
+}
+.alternatif-tersters{
+    animation-direction: alternate-reverse;
+}
+@keyframes kaydırma4 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1000px;
+        transform: rotate(360deg);
+    }
+}
+.kutu5{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f9ffc9;
+    margin: 10px;
+
+    animation-name: kaydırma5;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+.forwads{
+    animation-fill-mode: forwards;
+}
+.backwards{
+    animation-fill-mode: backwards;
+}
+.both{
+    animation-fill-mode: both;
+}
+@keyframes kaydırma5 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1000px;
+        transform: rotate(360deg);
+        background-color: blue;
+    }
+}
+
+.durankutu{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f9ffc9;
+
+    animation-name: durankaydırma;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+.durankutu:hover{
+    animation-play-state: paused;
+}
+@keyframes durankaydırma {
+    0%{
+        left: 0px;
+        background-color: red;
+    }
+    100%{
+        left: 1000px;
+        transform: rotate(360deg);
+        background-color: yellow;
+    }
+}
+.kısadurankutu{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f9ffc9;
+
+    animation: kısadurankaydırma 4s ease 1s 1 alternate both;
+}
+.kısadurankutu:hover{
+    animation-play-state: paused;
+}
+@keyframes kısadurankaydırma {
+    0%{
+        left: 0px;
+        background-color: red;
+    }
+    100%{
+        left: 1000px;
+        transform: rotate(360deg);
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

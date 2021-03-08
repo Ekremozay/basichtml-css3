@@ -1,0 +1,60 @@
+.renk{
+    color: red;
+}
+.left{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.baglanti{
+    text-decoration: none;
+}
+.cizgili{
+    text-decoration: line-through;
+}
+.buyut{
+    text-transform: uppercase;
+}
+.kucuk{
+    text-transform: lowercase;
+}
+.ilkharfbuyuk{
+    text-transform: capitalize;
+}
+p.satırbası{
+    text-indent: 200px;
+}
+.bosluk{
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.satir{
+    line-height: 25px;
+}
+body{
+    font-family: "Times New Roman";
+}
+.yazıailesi{
+    font-family: Verdana;
+    font-size: 20px;
+}
+.p1{
+    font-style: normal;
+    font-weight: 100;
+}
+.p2{
+    font-style: italic;
+    font-weight: 500;
+}
+.p3{
+    font-style: oblique;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Deneme Font";
+    src: url("AkayaKanadaka-Regular.ttf");
+}
+div{
+    font-family: "Deneme Font";
+}
